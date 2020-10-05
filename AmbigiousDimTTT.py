@@ -74,7 +74,7 @@ ie. ( |f| $_forall$  )
 '''
 
 # %% codecell
-from sympy import *
+import sympy
 from sympy import init_session
 x,y,z = symbols('x y z')
 Integral( 1/sqrt(x), x )
